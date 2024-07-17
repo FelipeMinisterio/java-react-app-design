@@ -1,0 +1,70 @@
+.accountOverview{
+    grid-template-columns: 340px 360px;
+      display: grid;
+    width: 39.2%;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-top: 0px;
+    h1{
+      font-weight: 500;
+      color: #474445;
+      margin-left: 7%;
+      margin-bottom: 0px;
+      margin-top: 45px;
+    }
+    .divide{
+      grid-template-columns: 65px 180px 150px;
+      display: grid;
+      margin-bottom: 40px;
+      
+      h4{
+        margin-top: 5px;
+        margin-bottom: 0px;
+        display: inline-block;
+        font-size: 15px;
+        
+       
+        color: #3F3C3D;
+      }
+      h5{
+        margin-top: 5px;
+        margin-bottom: 0px;
+      }
+    }
+    .emailIcon{   
+      padding-right: 8px;
+    }
+    .supportIcon{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #FFC732;
+      width: 50px;
+      height: 50px;
+      border-radius: 10px;
+    }
+  }
+  header{
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+  }
+  .supportContact{
+    float: right;
+    width: 100%;
+    h3{
+    color: #A5A2A2;
+    font-size: 17px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+    }
+    h3 + h3{
+      color: rgb(109, 109, 102);
+      font-size: 16px;
+      font-weight: 300;
+      }
+    h5{
+      color: rgb(109, 109, 102);
+      font-size: 15px;
+      font-weight: 100;
+    }  
+  }
